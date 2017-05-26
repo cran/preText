@@ -1,15 +1,17 @@
-# preText -- Master: [![Travis-CI Build Status](https://travis-ci.org/matthewjdenny/preText.svg?branch=master)](https://travis-ci.org/matthewjdenny/preText)  
+# preText -- Master: [![Travis-CI Build Status](https://travis-ci.org/matthewjdenny/preText.svg?branch=master)](https://travis-ci.org/matthewjdenny/preText)  [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/preText)](https://CRAN.R-project.org/package=preText) ![](http://cranlogs.r-pkg.org/badges/preText) ![](http://cranlogs.r-pkg.org/badges/grand-total/preText)
 An R package to assess the consequences of text preprocessing decisions.
 
  **[[getting started with preText vignette]](http://www.mjdenny.com/getting_started_with_preText.html)**.
 
 The paper detailing the procedure can be found at the link below:
 
-* Matthew J. Denny, and Arthur Spirling (2016). "Assessing the Consequences of Text Preprocessing Decisions". [[ssrn.com/abstract=2849145]](https://ssrn.com/abstract=2849145)
+* Matthew J. Denny, and Arthur Spirling (2017). "Text Preprocessing For Unsupervised Learning: Why It Matters, When It Misleads, And What To Do About It". [[ssrn.com/abstract=2849145]](https://ssrn.com/abstract=2849145)
 
 ## Installation
-We are currently working on getting a version of the package up on CRAN. As soon
-as it is available, we will update the installation instructions.
+
+The easiest way to do this is to install the package from CRAN via the standard `install.packages` command:
+
+    install.packages("preText")
 
 If you want to get the latest version from GitHub, start by checking out the 
 **Requirements for using C++ code with R** section in the following 

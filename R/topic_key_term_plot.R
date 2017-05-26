@@ -198,9 +198,9 @@ topic_key_term_plot <- function(
     data2$value <- as.factor(data2$value)
 
 
-    data$labs <- factor(data$labs, levels = rev(data$labs))
-    data1$labs <- factor(data1$labs, levels = rev(data1$labs))
-    data2$labs <- factor(data2$labs, levels = rev(data2$labs))
+    # data$labs <- factor(data$labs, levels = rev(data$labs))
+    # data1$labs <- factor(data1$labs, levels = rev(data1$labs))
+    # data2$labs <- factor(data2$labs, levels = rev(data2$labs))
 
     # legend.position = "none",
     #make the plot
@@ -213,7 +213,8 @@ topic_key_term_plot <- function(
 
         p <- p + ggplot2::scale_fill_manual("",
                                             values = custom_ramp,
-                                            labels = custom_labels)
+                                            labels = custom_labels) +
+            ggplot2::scale_x_discrete(position = "top")
 
         p2 <- ggplot2::ggplot(data2, ggplot2::aes(variable, labs)) +
             ggplot2::geom_tile(ggplot2::aes(fill = value), colour = "black") +
@@ -222,10 +223,11 @@ topic_key_term_plot <- function(
 
         p2 <- p2 + ggplot2::scale_fill_manual("",
                                               values = custom_ramp,
-                                              labels = custom_labels)
+                                              labels = custom_labels) +
+            ggplot2::scale_x_discrete(position = "top")
 
-        p <- cowplot::ggdraw(cowplot::switch_axis_position(p , axis = 'x'))
-        p2 <- cowplot::ggdraw(cowplot::switch_axis_position(p2 , axis = 'x'))
+        p <- cowplot::ggdraw(p)
+        p2 <- cowplot::ggdraw(p2)
 
         multiplot(p, p2, cols = 2)
     } else {
@@ -236,9 +238,10 @@ topic_key_term_plot <- function(
 
         p <- p + ggplot2::scale_fill_manual("",
                                             values = custom_ramp,
-                                            labels = custom_labels)
+                                            labels = custom_labels) +
+            ggplot2::scale_x_discrete(position = "top")
 
-        p <- cowplot::ggdraw(cowplot::switch_axis_position(p , axis = 'x'))
+        p <- cowplot::ggdraw(p)
         print(p)
     }
 

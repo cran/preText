@@ -13,13 +13,13 @@ wordfish_comparison(dfm_list, years, anchors = c(1, 24),
 
 \item{years}{A numeric vector giving the year for each document.}
 
-\item{anchors}{A numeric vetor of length two used to anchor the wordfish
-estimates. Defaults to c(1,24) which should work for the UK parlament docs.}
+\item{anchors}{A numeric vector of length two used to anchor the Wordfish
+estimates. Defaults to c(1,24) which should work for the UK parliament docs.}
 
 \item{proportion_threshold}{proportion of years a term must be included in
 to be included in the Wordfish analysis.}
 
-\item{document_inidices}{An option vector of row indicies to be used. Useful
+\item{document_inidices}{An option vector of row indices to be used. Useful
 for using a subset of the data for analysis.}
 }
 \value{
@@ -64,4 +64,3 @@ wordfish_results <- wordfish_comparison(
     document_inidices = c(19:22,42:45))
 }
 }
-

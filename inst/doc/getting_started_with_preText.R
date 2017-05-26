@@ -15,16 +15,16 @@ library(preText)
 library(quanteda)
 
 # load in U.S. presidential inaugural speeches from Quanteda example data.
-corp <- corpus(inaugTexts)
+documents <- data_corpus_inaugural
 # use first 10 documents for example
-documents <- texts(corp)[1:10]
+documents <- documents[1:10,]
 # take a look at the document names
 print(names(documents))
 
 ## ----eval=TRUE, fig.width=6, fig.height=6, fig.align ='center'-----------
 preprocessed_documents <- factorial_preprocessing(
     documents,
-    use_ngrams = TRUE,
+    use_ngrams = FALSE,
     infrequent_term_threshold = 0.2,
     verbose = FALSE)
 
@@ -61,7 +61,7 @@ regression_coefficient_plot(preText_results,
 #  # run preText
 #  preText_results <- preText(
 #      preprocessed_documents,
-#      dataset_name = "Inaugural Speeches",
+#      dataset_name = "UK Manifestos",
 #      distance_method = "cosine",
 #      num_comparisons = 100,
 #      verbose = TRUE)
