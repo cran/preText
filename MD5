@@ -1,4 +1,4 @@
-44e9a2b6c9cc08911e4846d66eb97bf4 *DESCRIPTION
+db4d59fa793e8404c2378adf64f47628 *DESCRIPTION
 c4ba90fb7d6e6e521030abaabaeb4f0f *NAMESPACE
 21f0c01e6958fe9c3028e057f73466d5 *R/Data_Documentation.R
 08bde98013cd42997e8d46fe8d768a18 *R/Package_Documentation.R
@@ -14,7 +14,7 @@ f719b5f6ffaf51aace16cb531b63f2bc *R/mantel_comparison_to_base.R
 cb188917312553ec9ceb29cf40a197d8 *R/optimal_k_comparison.R
 5b0f860a5fdeee0660fc3c89c52a7ae4 *R/parallel_preprocess.R
 e88e31711edef172c4ff1fbf53d9cef9 *R/parallel_rank_test.R
-1e0f06cce651ab12f5e770ef26f82fb7 *R/preText.R
+2154854d6a011dc4f722419c10f39a16 *R/preText.R
 f22a825ada18a1653114c0ebb8a92b2c *R/preText_score_plot.R
 40fddfdd08c7a552683ed402c0b859f5 *R/preText_test.R
 2fb1c63532ecc9c603c2b726c582887e *R/preprocessing_choice_regression.R
@@ -23,16 +23,16 @@ c405408c5369e21042a8cfb93681b065 *R/regression_coefficient_plot.R
 efbd0d3e83e5af9033d938869ddd16c5 *R/scaling_comparison.R
 fd866fa32e5b27a5dddcaf39862b0d5a *R/temporal_filter.R
 19dc9f5c1fcde232c28bf1e920af1e0b *R/topic_key_term_plot.R
-2e8e9b0d7c14ba51291985e5c64eb861 *R/topic_novelty_score.R
+326e67df760011e13a6dbc99658591a8 *R/topic_novelty_score.R
 1b3b62b963f1bb36b9a584c74c9df950 *R/wordfish_comparison.R
-1c53f52344389096879b84f29dfcf69c *R/wordfish_rank_plot.R
-3bc208ebdb15f3d1362f2e630af6d9c1 *R/zzz.R
+e7b0e1d97fa3d0211f2b8162409c40aa *R/wordfish_rank_plot.R
+111043361f8a3a9f1ff34c0faa16b9f0 *R/zzz.R
 a93dc8925a3263eae4880669b652dfac *README.md
-856dcd127b8f7fbdf28afdb3113f18de *build/vignette.rds
+6e83faaecdd384c4337bb23c2f5d0c48 *build/vignette.rds
 b321eb21ffe6bb77d115c79f2454c067 *data/UK_Manifestos.rda
 419a4da9d1ece49630179b9411f63fbd *inst/doc/getting_started_with_preText.R
 ddffaf96a987a16309779f1612f2ee2b *inst/doc/getting_started_with_preText.Rmd
-f88d3efc430b7505e61cc96e0194791c *inst/doc/getting_started_with_preText.html
+370470c7c171c5639508535c84378617 *inst/doc/getting_started_with_preText.html
 de9edc46a5cb25d8a07b8166534c0dfa *man/UK_Manifestos.Rd
 25652fb31914d780034c9ca7832e7881 *man/calculate_prediction_errors.Rd
 3551700d0cbbfe5b74fb61c9e255c05d *man/dfm_scaling_test.Rd
@@ -41,7 +41,7 @@ de9edc46a5cb25d8a07b8166534c0dfa *man/UK_Manifestos.Rd
 8772d386e1729300fb4838cbd4af7206 *man/mantel_comparison.Rd
 ad8a8a8cd306cfc3c084075c602827d8 *man/mantel_comparison_to_base.Rd
 b4db2116c404b7bf277ec24b6afa9aec *man/optimal_k_comparison.Rd
-f7ecdc53b841ba43d4fb1810984a8864 *man/preText.Rd
+e6e4bd5662fe0ad5e228550e1f913464 *man/preText.Rd
 364b98c3f6d0caa57f62ecbbf50825cf *man/preText_score_plot.Rd
 e0f135cbc1264fbc91b34cd7166a4841 *man/preText_test.Rd
 555056f998f94c1e8e2bdb63d574b762 *man/preprocessing_choice_regression.Rd
