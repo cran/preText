@@ -1,4 +1,4 @@
-db4d59fa793e8404c2378adf64f47628 *DESCRIPTION
+beb24923001c23ab8a7370029ea64609 *DESCRIPTION
 c4ba90fb7d6e6e521030abaabaeb4f0f *NAMESPACE
 21f0c01e6958fe9c3028e057f73466d5 *R/Data_Documentation.R
 08bde98013cd42997e8d46fe8d768a18 *R/Package_Documentation.R
@@ -17,7 +17,7 @@ e88e31711edef172c4ff1fbf53d9cef9 *R/parallel_rank_test.R
 2154854d6a011dc4f722419c10f39a16 *R/preText.R
 f22a825ada18a1653114c0ebb8a92b2c *R/preText_score_plot.R
 40fddfdd08c7a552683ed402c0b859f5 *R/preText_test.R
-2fb1c63532ecc9c603c2b726c582887e *R/preprocessing_choice_regression.R
+4c81408f97431b82f49de54b4083127c *R/preprocessing_choice_regression.R
 c405408c5369e21042a8cfb93681b065 *R/regression_coefficient_plot.R
 7919dfa99cb73236c0f2032e81b36c98 *R/remove_infrequent_terms.R
 efbd0d3e83e5af9033d938869ddd16c5 *R/scaling_comparison.R
@@ -26,13 +26,13 @@ fd866fa32e5b27a5dddcaf39862b0d5a *R/temporal_filter.R
 326e67df760011e13a6dbc99658591a8 *R/topic_novelty_score.R
 1b3b62b963f1bb36b9a584c74c9df950 *R/wordfish_comparison.R
 e7b0e1d97fa3d0211f2b8162409c40aa *R/wordfish_rank_plot.R
-111043361f8a3a9f1ff34c0faa16b9f0 *R/zzz.R
+5219b2344fc8c66c6bd4b32ca8bf7661 *R/zzz.R
 a93dc8925a3263eae4880669b652dfac *README.md
-6e83faaecdd384c4337bb23c2f5d0c48 *build/vignette.rds
+7b62244e0e09559a468c09cd70ab9085 *build/vignette.rds
 b321eb21ffe6bb77d115c79f2454c067 *data/UK_Manifestos.rda
 419a4da9d1ece49630179b9411f63fbd *inst/doc/getting_started_with_preText.R
 ddffaf96a987a16309779f1612f2ee2b *inst/doc/getting_started_with_preText.Rmd
-370470c7c171c5639508535c84378617 *inst/doc/getting_started_with_preText.html
+81d305c01d162c51b74acd3974b7091c *inst/doc/getting_started_with_preText.html
 de9edc46a5cb25d8a07b8166534c0dfa *man/UK_Manifestos.Rd
 25652fb31914d780034c9ca7832e7881 *man/calculate_prediction_errors.Rd
 3551700d0cbbfe5b74fb61c9e255c05d *man/dfm_scaling_test.Rd

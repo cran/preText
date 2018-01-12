@@ -12,7 +12,7 @@
 
 <meta name="author" content="Matthew Denny" />
 
-<meta name="date" content="2017-11-13" />
+<meta name="date" content="2018-01-12" />
 
 <title>Getting Started With preText</title>
 
@@ -70,7 +70,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 <h1 class="title toc-ignore">Getting Started With preText</h1>
 <h4 class="author"><em>Matthew Denny</em></h4>
-<h4 class="date"><em>2017-11-13</em></h4>
+<h4 class="date"><em>2018-01-12</em></h4>
 
 
 
@@ -96,13 +96,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p>We begin by loading the package and some example data from the <code>quanteda</code> R package. In this example, we will make use of 57 U.S. presidential inaugural speeches. As a general rule, you will want to limit the number of documents used with <code>preText</code> to several hundred in most cases, in order to avoid extremely long run times and/or high memory requirements. To make this example run more quickly, we are only going to use 10 documents.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(preText)</code></pre></div>
 <pre><code>## preText: Diagnostics to Assess the Effects of Text Preprocessing Decisions
-## Version 0.6.1 created on 2017-11-13.
+## Version 0.6.3 created on 2018-01-12.
 ## copyright (c) 2017, Matthew J. Denny, Penn State University
 ##                     Arthur Spirling, NYU
 ## Type vignette('getting_started_with_preText') to get started.
 ## Development website: https://github.com/matthewjdenny/preText</code></pre>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(quanteda)</code></pre></div>
-<pre><code>## quanteda version 0.99.12</code></pre>
+<pre><code>## quanteda version 0.99.22</code></pre>
 <pre><code>## Using 3 of 4 threads for parallel computing</code></pre>
 <pre><code>## 
 ## Attaching package: 'quanteda'</code></pre>
@@ -164,7 +164,7 @@ documents &lt;-<span class="st"> </span>documents[<span class="dv">1</span><span
 ## 5                Stemming      -0.004 0.002
 ## 6        Remove Stopwords      -0.036 0.002
 ## 7 Remove Infrequent Terms      -0.011 0.002
-## Complete in: 3.204 seconds...</code></pre>
+## Complete in: 3.318 seconds...</code></pre>
 <p>The <code>preText()</code> function returns a list of result with four fields:</p>
 <ul>
 <li><code>$preText_scores</code>: A <code>data.frame</code> containing preText scores and preprocessing step labels for each preprocessing step as columns. Note that there is no preText score for the case of no prepprocessing steps.</li>
